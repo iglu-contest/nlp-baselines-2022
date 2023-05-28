@@ -5,7 +5,7 @@ For more details about the baselines, we refer to [our paper](https://arxiv.org/
 | Task | Method                                 | Train | Trained Model | Test |
 |------|----------------------------------------|-------|---------------|------|
 | When | Text-Grid Cross Modularity             |       |               |      |
-| When | Textual Grid world State               |       |               |      |
+| When | Textual Grid world State               | [link](https://github.com/iglu-contest/nlp-baselines-2022/blob/main/classifiers/Textual%20Grid%20world%20State%20Baseline/train.ipynb)      |               |      |
 | What | Text-World Fusion Ranker               |       |               |      |
 | What | State-Instruction Concatenation Ranker |       |               |      |
 
@@ -14,7 +14,7 @@ Here, we have two baselines which both predict if a given instruction is clear o
 
 1. **Text-Grid Cross Modularity**:
 
-2. [**Textual Grid world State**]((https://github.com/iglu-contest/nlp-baselines-2022/tree/main/classifiers/Textual%20Grid%20world%20State%20Baseline)): You can use [train.ipynb](https://github.com/iglu-contest/nlp-baselines-2022/blob/main/classifiers/Textual%20Grid%20world%20State%20Baseline/train.ipynb)  to train the model yourself. In case you do not want to go through training, you can [download the trained models from here](https://drive.google.com/drive/folders/11F_m8Qihv8AMZlfrr4P0-zrQOjPC8bnT?usp=drive_link) and run [test.py](https://github.com/iglu-contest/nlp-baselines-2022/blob/main/classifiers/Textual%20Grid%20world%20State%20Baseline/test.py) for inference purpose. 
+2. [**Textual Grid world State**]((https://github.com/iglu-contest/nlp-baselines-2022/tree/main/classifiers/Textual%20Grid%20world%20State%20Baseline)): You can use [train.ipynb]  to train the model yourself. In case you do not want to go through training, you can [download the trained models from here](https://drive.google.com/drive/folders/11F_m8Qihv8AMZlfrr4P0-zrQOjPC8bnT?usp=drive_link) and run [test.py](https://github.com/iglu-contest/nlp-baselines-2022/blob/main/classifiers/Textual%20Grid%20world%20State%20Baseline/test.py) for inference purpose. 
  
 ## What to ask
 1.  [**Text-World Fusion Ranker**]() This method utilizes a frozen DeBERTa-v3-base model to encode instructions and employs a text representation approach for ranking tasks. It combines the encoded text representation with a world representation derived from a 3D grid, which is processed through convolutional networks. The concatenated vector is passed through a two-layer MLP, and the model is trained using CrossEntropy loss with ensemble predictions from 10 models. Additionally, certain post-processing tricks are applied to enhance performance by excluding irrelevant questions based on heuristic rules.
