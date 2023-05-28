@@ -2,6 +2,13 @@
 The repository contains the tope performing NLP solutions for IGLU 2022 competition. The baselines cover solutions to **When** and **What** to ask as clarification questions. 
 For more details about the baselines, we refer to [our paper](https://arxiv.org/pdf/2305.10783). 
 
+| Task | Method                                 | Train | Trained Model | Test |
+|------|----------------------------------------|-------|---------------|------|
+| When | Text-Grid Cross Modularity             |       |               |      |
+| When | Textual Grid world State               |       |               |      |
+| What | Text-World Fusion Ranker               |       |               |      |
+| What | State-Instruction Concatenation Ranker |       |               |      |
+
 ## When to ask
 Here, we have two baselines which both predict if a given instruction is clear or if it needs a clarification question.:
 
