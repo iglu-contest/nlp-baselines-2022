@@ -13,8 +13,8 @@ Here, we have two baselines which both predict if a given instruction is clear o
 1.  [**Text-World Fusion Ranker**]() This method utilizes a frozen DeBERTa-v3-base model to encode instructions and employs a text representation approach for ranking tasks. It combines the encoded text representation with a world representation derived from a 3D grid, which is processed through convolutional networks. The concatenated vector is passed through a two-layer MLP, and the model is trained using CrossEntropy loss with ensemble predictions from 10 models. Additionally, certain post-processing tricks are applied to enhance performance by excluding irrelevant questions based on heuristic rules.
 
 3.  [**State-Instruction Concatenation Ranker**]() :This method focuses on aligning relevant queries and items closely in an embedding space while distancing queries from irrelevant items. It pairs positive questions with sampled negative questions and measures the similarity between the instruction and the question using a BERT-like language model. State information, such as colors and numbers of initialized blocks, is encoded as natural language and concatenated with the instruction. Data augmentation techniques, domain-adaptive fine-tuning, and the list-wise loss function are employed to improve training and generalization.
-- Train
-- Test
-- Trained model
+  -  Train
+  -   Test
+  -   Trained model
 
 [work in progress]
