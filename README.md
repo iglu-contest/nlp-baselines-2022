@@ -6,7 +6,7 @@ For more details about the baselines, we refer to [our paper](https://arxiv.org/
 |------|----------------------------------------|-------|---------------|------|
 | When | Text-Grid Cross Modularity             |       |         |      |
 | When | Textual Grid world State     | [Link](https://github.com/iglu-contest/nlp-baselines-2022/blob/main/classifiers/Textual%20Grid%20world%20State%20Baseline/train.ipynb)      |   [Link](https://drive.google.com/drive/folders/11F_m8Qihv8AMZlfrr4P0-zrQOjPC8bnT?usp=drive_link)  | [Link](https://github.com/iglu-contest/nlp-baselines-2022/blob/main/classifiers/Textual%20Grid%20world%20State%20Baseline/test.py)
-| What | Text-World Fusion Ranker               |     [Link](https://drive.google.com/drive/folders/1qtGk5HxikNQFlalU7KqCyo5j7XS1lQFM?usp=drive_link)            | [Link](https://github.com/iglu-contest/nlp-baselines-2022/blob/main/rankers/Text%20World%20Fusion%20Ranker/test.py)        |
+| What | Text-World Fusion Ranker             |  |     [Link](https://drive.google.com/drive/folders/1qtGk5HxikNQFlalU7KqCyo5j7XS1lQFM?usp=drive_link)            | [Link](https://github.com/iglu-contest/nlp-baselines-2022/blob/main/rankers/Text%20World%20Fusion%20Ranker/test.py)        |
 | What | State-Instruction Concatenation Ranker | [Link](https://github.com/iglu-contest/nlp-baselines-2022/blob/main/rankers/State-Instruction%20Concatenation%20Ranker/train.py)      | [Link](https://drive.google.com/drive/folders/1CvxrnACZz5O6z9XecSi7nPF0VsOvuXo2?usp=sharing) | [Link](https://github.com/iglu-contest/nlp-baselines-2022/blob/main/rankers/State-Instruction%20Concatenation%20Ranker/test.py)     |
 
 ## When to ask Clarifying questions
