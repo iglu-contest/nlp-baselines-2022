@@ -24,6 +24,7 @@ Here, we have two baselines which both predict if a given instruction is clear o
 
 
 # Related papers
+[Transforming Human-Centered AI Collaboration: Redefining Embodied Agents Capabilities through Interactive Grounded Language Instructions](https://arxiv.org/abs/2305.10783)
 ```
 @misc{mohanty2023transforming,
       title={Transforming Human-Centered AI Collaboration: Redefining Embodied Agents Capabilities through Interactive Grounded Language Instructions}, 
@@ -35,6 +36,7 @@ Here, we have two baselines which both predict if a given instruction is clear o
 }
 ```
 
+[IGLU 2022: Interactive Grounded Language Understanding in a Collaborative Environment at NeurIPS 2022](https://arxiv.org/abs/2205.13771)
 ```
 @misc{kiseleva2022iglu,
       title={IGLU 2022: Interactive Grounded Language Understanding in a Collaborative Environment at NeurIPS 2022}, 
@@ -45,7 +47,7 @@ Here, we have two baselines which both predict if a given instruction is clear o
       primaryClass={cs.CL}
 }
 ```
-
+[Collecting Interactive Multi-modal Datasets for Grounded Language Understanding](https://arxiv.org/abs/2211.06552)
 ```
 @misc{mohanty2023collecting,
       title={Collecting Interactive Multi-modal Datasets for Grounded Language Understanding}, 
@@ -57,6 +59,7 @@ Here, we have two baselines which both predict if a given instruction is clear o
 }
 ```
 
+[Learning to Solve Voxel Building Embodied Tasks from Pixels and Natural Language Instructions](https://arxiv.org/abs/2211.00688)
 ```
 @misc{skrynnik2022learning,
       title={Learning to Solve Voxel Building Embodied Tasks from Pixels and Natural Language Instructions}, 
