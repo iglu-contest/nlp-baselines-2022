@@ -21,3 +21,49 @@ Here, we have two baselines which both predict if a given instruction is clear o
 1.  [**Text-World Fusion Ranker**]() This method utilizes a frozen DeBERTa-v3-base model to encode instructions and employs a text representation approach for ranking tasks. It combines the encoded text representation with a world representation derived from a 3D grid, which is processed through convolutional networks. The concatenated vector is passed through a two-layer MLP, and the model is trained using CrossEntropy loss with ensemble predictions from 10 models. Additionally, certain post-processing tricks are applied to enhance performance by excluding irrelevant questions based on heuristic rules.
 
 3.  [**State-Instruction Concatenation Ranker**]() :This method focuses on aligning relevant queries and items closely in an embedding space while distancing queries from irrelevant items. It pairs positive questions with sampled negative questions and measures the similarity between the instruction and the question using a BERT-like language model. State information, such as colors and numbers of initialized blocks, is encoded as natural language and concatenated with the instruction. Data augmentation techniques, domain-adaptive fine-tuning, and the list-wise loss function are employed to improve training and generalization.
+
+
+# Related papers
+```
+@misc{mohanty2023transforming,
+      title={Transforming Human-Centered AI Collaboration: Redefining Embodied Agents Capabilities through Interactive Grounded Language Instructions}, 
+      author={Shrestha Mohanty and Negar Arabzadeh and Julia Kiseleva and Artem Zholus and Milagro Teruel and Ahmed Awadallah and Yuxuan Sun and Kavya Srinet and Arthur Szlam},
+      year={2023},
+      eprint={2305.10783},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
+}
+```
+
+```
+@misc{kiseleva2022iglu,
+      title={IGLU 2022: Interactive Grounded Language Understanding in a Collaborative Environment at NeurIPS 2022}, 
+      author={Julia Kiseleva and Alexey Skrynnik and Artem Zholus and Shrestha Mohanty and Negar Arabzadeh and Marc-Alexandre Côté and Mohammad Aliannejadi and Milagro Teruel and Ziming Li and Mikhail Burtsev and Maartje ter Hoeve and Zoya Volovikova and Aleksandr Panov and Yuxuan Sun and Kavya Srinet and Arthur Szlam and Ahmed Awadallah},
+      year={2022},
+      eprint={2205.13771},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
+```
+@misc{mohanty2023collecting,
+      title={Collecting Interactive Multi-modal Datasets for Grounded Language Understanding}, 
+      author={Shrestha Mohanty and Negar Arabzadeh and Milagro Teruel and Yuxuan Sun and Artem Zholus and Alexey Skrynnik and Mikhail Burtsev and Kavya Srinet and Aleksandr Panov and Arthur Szlam and Marc-Alexandre Côté and Julia Kiseleva},
+      year={2023},
+      eprint={2211.06552},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
+```
+@misc{skrynnik2022learning,
+      title={Learning to Solve Voxel Building Embodied Tasks from Pixels and Natural Language Instructions}, 
+      author={Alexey Skrynnik and Zoya Volovikova and Marc-Alexandre Côté and Anton Voronov and Artem Zholus and Negar Arabzadeh and Shrestha Mohanty and Milagro Teruel and Ahmed Awadallah and Aleksandr Panov and Mikhail Burtsev and Julia Kiseleva},
+      year={2022},
+      eprint={2211.00688},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
+}
+```
